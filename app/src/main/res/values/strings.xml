@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MiniSpotify</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_fragment_lable">Search</string>
+    <string name="fragment_login_lable">Login</string>
+    <string name="fragment_track_details_lable">Track details</string>
+    <string name="conenction_faled">connection failed</string>
+    <string name="login_from_application">Login from application</string>
+    <string name="login_from_browser">Login from browser</string>
+    <string name="don_t_forget_to_use_vpn">don\'t forget to use vpn =)</string>
+    <string name="search_tracks_here">search tracks here</string>
+    <string name="duration">duration :</string>
+    <string name="popularity">popularity :</string>
+    <string name="track_number">track_number :</string>
+    <string name="type">type :</string>
+    <string name="energy">energy :</string>
+    <string name="loudness">loudness :</string>
+    <string name="speechiness">speechiness :</string>
+</resources>
