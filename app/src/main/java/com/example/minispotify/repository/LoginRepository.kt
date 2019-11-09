@@ -1,13 +1,14 @@
 package com.example.minispotify.repository
 
 import androidx.lifecycle.MediatorLiveData
-import com.example.minispotify.SessionManager
+import com.example.minispotify.managers.RequestManager
+import com.example.minispotify.managers.SessionManager
 import com.example.minispotify.model.User
 import com.example.minispotify.util.AuthResource
 import javax.inject.Inject
 
-class LoginRepository
-@Inject constructor(var sessionManager: SessionManager){
+open class LoginRepository
+@Inject constructor(var sessionManager: SessionManager , var requestManager : RequestManager){
 
     // we observe user current state and we gon use it later
     val cachedUserLiveData = MediatorLiveData<AuthResource<User>>()
@@ -18,6 +19,11 @@ class LoginRepository
 
             cachedUserLiveData.value = it
         }
+
+    }
+
+    fun networkStateChanged(isConnected : Boolean){
+
     }
 
     fun setStateLoading(){

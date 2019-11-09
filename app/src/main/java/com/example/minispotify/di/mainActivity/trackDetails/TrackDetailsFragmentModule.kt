@@ -1,6 +1,6 @@
 package com.example.minispotify.di.mainActivity.trackDetails
 
-import android.app.Application
+import com.example.minispotify.managers.RequestManager
 import com.example.minispotify.network.AudioFeatures.AudioFeaturesService
 import com.example.minispotify.repository.TrackDetailsRepository
 import dagger.Module
@@ -14,9 +14,9 @@ import retrofit2.Retrofit
 class TrackDetailsFragmentModule {
 
     @Provides
-    fun provideTrackDetailsRepository(audioFeaturesService: AudioFeaturesService , application: Application): TrackDetailsRepository {
+    fun provideTrackDetailsRepository(audioFeaturesService: AudioFeaturesService , requestManager: RequestManager): TrackDetailsRepository {
 
-        return TrackDetailsRepository(audioFeaturesService , application)
+        return TrackDetailsRepository(audioFeaturesService , requestManager)
     }
 
     @Provides

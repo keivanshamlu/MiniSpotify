@@ -7,7 +7,8 @@ import androidx.lifecycle.observe
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.minispotify.R
-import com.example.minispotify.SessionManager
+import com.example.minispotify.managers.RequestManager
+import com.example.minispotify.managers.SessionManager
 import com.example.minispotify.util.AuthStatus
 import dagger.android.support.DaggerFragment
 import javax.inject.Inject
@@ -17,6 +18,9 @@ open class BaseFragment: DaggerFragment()  {
 
     @Inject
     lateinit var sessionManager: SessionManager
+    @Inject
+    lateinit var requestManager: RequestManager
+
     lateinit var navControllerr: NavController
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -24,6 +28,7 @@ open class BaseFragment: DaggerFragment()  {
 
         // set up navControllerr
         navControllerr = Navigation.findNavController(view)
+        requestManager.clearRequests()
         keepTrackingOfUser()
     }
 
@@ -41,6 +46,7 @@ open class BaseFragment: DaggerFragment()  {
             when(it.status){
 
                 AuthStatus.AUTHENTICATED -> {
+
 
                     if (navControllerr.currentDestination!!.label == getString(R.string.fragment_login_lable)) {
                         navControllerr.navigate(R.id.action_loginFragment_to_searchFragment)

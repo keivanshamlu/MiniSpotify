@@ -1,10 +1,14 @@
-package com.example.minispotify
+package com.example.minispotify.receivers
+
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.net.ConnectivityManager
 
+/**
+ * observes the state of connection of use device
+ */
 class ConnectivityReceiver: BroadcastReceiver() {
 
     override fun onReceive(context: Context?, intent: Intent?) {

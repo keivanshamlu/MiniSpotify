@@ -6,14 +6,15 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import com.bumptech.glide.Glide
 import com.example.daggerkotlinn.di.ViewModelProviderFactory
 import com.example.minispotify.R
+import com.example.minispotify.databinding.FragmentTrackDetailsBinding
 import com.example.minispotify.model.search.Item
 import com.example.minispotify.model.trackDetails.AudioFeaturesResult
 import com.example.minispotify.ui.BaseFragment
@@ -36,13 +37,17 @@ class TrackDetailsFragment : BaseFragment() {
     lateinit var currentItem : Item
     var navController: NavController? = null
 
+    lateinit var mBinding: FragmentTrackDetailsBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_track_details, container, false)
+
+        //set data binding object
+        mBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_track_details, container, false)
+
+        return mBinding.root
     }
 
 
@@ -50,16 +55,24 @@ class TrackDetailsFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //set up viewmodel and navcontroller
-        viewModel = ViewModelProvider(activity as MainActivity, viewModelProvider).get(
-            TrackDetailsViewModel::class.java)
+        viewModel = ViewModelProvider(activity as MainActivity, viewModelProvider).get(TrackDetailsViewModel::class.java)
+
+        //use to set lifecycle of fragment to it's viewmodel
+        viewModel.addLocationUpdates(lifecycle)
         navController = Navigation.findNavController(view)
 
         attachObservers()
         //request for more information of track
+        (activity as MainActivity).idlingResource.increment()
         viewModel.getAudioFeatures(currentItem.id)
 
-        //pass given Item object from searchFragment
-        setTrackAlreadyGivenDatas(currentItem)
+        //set objects to databinding object to use in layout
+        mBinding.viewModel = viewModel
+        mBinding.currentItem = currentItem
+        mBinding.currentImage = currentItem.album.images.get(0)
+        mBinding.currentAlbum = currentItem.album
+        mBinding.currentArtist = currentItem.artists.get(0)
+        mBinding.errorMode = false
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -79,37 +92,15 @@ class TrackDetailsFragment : BaseFragment() {
 
             handleAudiofeaturesResult(it)
         })
+
+        viewModel.isConnected.observe(this , Observer {
+
+            handleConnectionStatus(it)
+        })
     }
 
-    /**
-     * fetchs already given data that is given from
-     * search fragment into view
-     */
-    fun setTrackAlreadyGivenDatas(item : Item){
+    fun handleConnectionStatus(isConnected : Boolean?){
 
-        Glide.with(activity as MainActivity)
-            .load(item.album.images.get(0).url)
-            .placeholder(  R.drawable.ic_compact_disc )
-            .into(trackCover)
-
-        trackName.text = item.name
-        artistName.text = item.artists.get(0).name
-        albumName.text = item.album.name
-        duration.text = (item.duration_ms/1000).toString()
-        popularity.text = item.popularity.toString()
-        track_number.text = item.track_number.toString()
-        type.text = item.type
-
-    }
-
-    /**
-     * fetchs result of getaudioFeatures request into view
-     */
-    fun setAudiofeatures(result : AudioFeaturesResult?){
-
-        energy.text = result?.energy.toString()
-        loudness.text = result?.loudness.toString()
-        speechiness.text = result?.speechiness.toString()
     }
 
     /**
@@ -117,23 +108,31 @@ class TrackDetailsFragment : BaseFragment() {
      * when ever loading state changes , call setAudiofeatures when
      * request is successfull , shows error when request fails
      */
-    fun handleAudiofeaturesResult(result : Resource<AudioFeaturesResult>){
+    fun handleAudiofeaturesResult(result : Resource<AudioFeaturesResult>?){
 
-        when(result.status){
+        when(result?.status){
 
             Status.SUCCESS -> {
-                setAudiofeatures(result.data)
-                setAudioFeaturesLoading(false)
+                (activity as MainActivity).idlingResource.decrement()
+                mBinding.audioFeaturesResult = result.data
+                mBinding.audioFeaturesLoading = false
+                mBinding.errorMode = false
             }
             Status.ERROR -> {
-
+                mBinding.errorMode = true
+                (activity as MainActivity).idlingResource.decrement()
                 Toast.makeText(activity , result.message , Toast.LENGTH_LONG).show()
                 setAudioFeaturesError()
             }
             Status.LOADING -> {
-
-                setAudioFeaturesLoading(true)
+                mBinding.errorMode = false
+                mBinding.audioFeaturesLoading = true
             }
+        }
+        if(result == null){
+
+            mBinding.errorMode = true
+            setAudioFeaturesError()
         }
     }
 
@@ -141,24 +140,9 @@ class TrackDetailsFragment : BaseFragment() {
      * set getaudioFeatures error view
      */
     fun setAudioFeaturesError(){
-
         connectionFailed.visibility = View.VISIBLE
         audioFeaturesLayout.visibility = View.GONE
         featuresProgressBar.visibility = View.GONE
     }
-    /**
-     * set getaudioFeatures loading veiws
-     */
-    fun setAudioFeaturesLoading(isLoading : Boolean){
 
-        if(isLoading){
-
-            audioFeaturesLayout.visibility = View.GONE
-            featuresProgressBar.visibility = View.VISIBLE
-        }else{
-
-            featuresProgressBar.visibility = View.GONE
-            audioFeaturesLayout.visibility = View.VISIBLE
-        }
-    }
 }

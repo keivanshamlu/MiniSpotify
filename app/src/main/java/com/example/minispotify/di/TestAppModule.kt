@@ -1,9 +1,11 @@
-package com.example.daggerkotlinn.di
-
+package com.example.minispotify.di
+import android.app.Application
+import com.bumptech.glide.Glide
+import com.bumptech.glide.RequestManager
 import com.bumptech.glide.request.RequestOptions
 import com.example.minispotify.managers.SessionManager
 import com.example.minispotify.util.BasicAuthInterceptor
-import com.example.minispotify.util.Constans.BASE_URL
+import com.example.minispotify.util.Constans.BASE_URL_Test
 import com.example.minispotify.util.Constans.CLIENT_ID
 import com.example.minispotify.util.Constans.REDIRECT_URI
 import com.spotify.sdk.android.authentication.AuthenticationRequest
@@ -18,10 +20,12 @@ import javax.inject.Singleton
 
 
 /**
- * we provide objects that are alive in lifeTime of application
+ * we provide objects that are alive in lifeTime of testapplication
+ * the only diffrence between this and appModule is that this
+ * provides the okhttp object with mockserver baseUrl
  */
 @Module
-class AppModule {
+class TestAppModule {
 
     //test
     //i use this simple providation to setUp dagger
@@ -33,13 +37,18 @@ class AppModule {
             .error(com.example.minispotify.R.drawable.default_image)
     }
 
-
+    @Singleton
+    @Provides
+    fun provideGlideInstance(application: Application, requestOptions: RequestOptions): RequestManager {
+        return Glide.with(application)
+            .setDefaultRequestOptions(requestOptions)
+    }
 
     @Provides
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
         return Retrofit.Builder()
             .client(okHttpClient)
-            .baseUrl(BASE_URL)
+            .baseUrl(BASE_URL_Test)
             .addConverterFactory(MoshiConverterFactory.create())
             .build()
     }
@@ -60,9 +69,9 @@ class AppModule {
     @Provides
     fun provideOkHttp(sessionManager: SessionManager) :OkHttpClient{
         return OkHttpClient.Builder()
-            .connectTimeout(12 , TimeUnit.SECONDS)
-            .writeTimeout(12 , TimeUnit.SECONDS)
-            .readTimeout(12 , TimeUnit.SECONDS)
+            .connectTimeout(7 , TimeUnit.SECONDS)
+            .writeTimeout(7 , TimeUnit.SECONDS)
+            .readTimeout(7 , TimeUnit.SECONDS)
             .addInterceptor(BasicAuthInterceptor(sessionManager))
             .build()
     }

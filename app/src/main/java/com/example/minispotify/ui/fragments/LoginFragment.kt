@@ -1,7 +1,6 @@
 package com.example.minispotify.ui.fragments
 
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -13,8 +12,6 @@ import androidx.navigation.NavController
 import androidx.navigation.Navigation
 import com.example.daggerkotlinn.di.ViewModelProviderFactory
 import com.example.minispotify.R
-import com.example.minispotify.model.LoginType
-import com.example.minispotify.model.User
 import com.example.minispotify.ui.BaseFragment
 import com.example.minispotify.ui.activities.MainActivity
 import com.example.minispotify.util.AuthStatus
@@ -22,7 +19,6 @@ import com.example.minispotify.util.Constans.REQUEST_CODE
 import com.example.minispotify.viewModels.LoginViewModel
 import com.spotify.sdk.android.authentication.AuthenticationClient
 import com.spotify.sdk.android.authentication.AuthenticationRequest
-import com.spotify.sdk.android.authentication.AuthenticationResponse
 import kotlinx.android.synthetic.main.fragment_login.*
 import javax.inject.Inject
 
@@ -32,12 +28,28 @@ import javax.inject.Inject
  */
 class LoginFragment : BaseFragment() , View.OnClickListener{
 
+
+
+
     override fun onClick(p0: View?) {
+
 
         when(p0!!.id){
 
-            R.id.loginFromApp -> AuthenticationClient.openLoginActivity(activity, REQUEST_CODE, request)
-            R.id.loginFromBrowser -> {AuthenticationClient.openLoginInBrowser(activity, request)}
+            R.id.loginFromApp -> {
+
+                //decrement idling resources because it takes
+                // time and spresso testing should be pause
+                // until the authentication is done
+                (activity as MainActivity).idlingResource.increment()
+                AuthenticationClient.openLoginActivity(activity, REQUEST_CODE, request)}
+            R.id.loginFromBrowser -> {
+
+                //decrement idling resources because it takes
+                // time and spresso testing should be pause
+                // until the authentication is done
+                (activity as MainActivity).idlingResource.increment()
+                AuthenticationClient.openLoginInBrowser(activity, request)}
         }
     }
 
@@ -101,37 +113,5 @@ class LoginFragment : BaseFragment() , View.OnClickListener{
             }
         })
     }
-
-    /**
-     * when user authenticates using application
-     * , result will come up here
-     * if authentication was successfull or not we
-     * set in sessionManager and it will handle it all
-     */
-     override fun onActivityResult(requestCode: Int, resultCode: Int, intent: Intent?) {
-        super.onActivityResult(requestCode, resultCode, intent)
-
-        // Check if result comes from the correct activity
-        if (requestCode == REQUEST_CODE) {
-            val response = AuthenticationClient.getResponse(resultCode, intent)
-
-            when (response.type) {
-                // Response was successful and contains auth token
-                AuthenticationResponse.Type.TOKEN -> {
-
-                    //login type -> from app
-                    viewModel.setUser(User("Bearer "+response.accessToken , LoginType.FROM_APP))
-                }
-
-                // Auth flow returned an error
-                AuthenticationResponse.Type.ERROR -> {
-
-                    viewModel.setStateError(response.error)
-                }
-            }
-        }
-    }
-
-
 
 }

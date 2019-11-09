@@ -1,0 +1,1389 @@
+{
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/search?query=roadhouse+blues&type=track&offset=0&limit=20",
+    "items" : [ {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6AFLOkpJjFF652jevcSOZX"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6AFLOkpJjFF652jevcSOZX",
+        "id" : "6AFLOkpJjFF652jevcSOZX",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2734ed63cae41138c76c4b25655",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e024ed63cae41138c76c4b25655",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048514ed63cae41138c76c4b25655",
+          "width" : 64
+        } ],
+        "name" : "Morrison Hotel",
+        "release_date" : "1970-02-09",
+        "release_date_precision" : "day",
+        "total_tracks" : 11,
+        "type" : "album",
+        "uri" : "spotify:album:6AFLOkpJjFF652jevcSOZX"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 243826,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE19900375"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1Q5kgpp4pmyGqPwNBzkSrw"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1Q5kgpp4pmyGqPwNBzkSrw",
+      "id" : "1Q5kgpp4pmyGqPwNBzkSrw",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 73,
+      "preview_url" : "https://p.scdn.co/mp3-preview/ce4e9952e1519b9fe6c858b085fbe79077ec9dfb?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1Q5kgpp4pmyGqPwNBzkSrw"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0MuuO7q58HbGU3qUjICucE"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0MuuO7q58HbGU3qUjICucE",
+        "id" : "0MuuO7q58HbGU3qUjICucE",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/aacf929581606f3c32a5e676e93bb46565fadb10",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/0d672e752980845a510aaeeacb945ca7829c82cd",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ccc917bb3ce00c99418b789a47fc4fdbbd78eed5",
+          "width" : 64
+        } ],
+        "name" : "The Soft Parade (50th Anniversary Deluxe Edition)",
+        "release_date" : "2019-11-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 25,
+        "type" : "album",
+        "uri" : "spotify:album:0MuuO7q58HbGU3qUjICucE"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 2,
+      "duration_ms" : 328802,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USRH11902730"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/38yGuAIwCFaleUMwRaRy2v"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/38yGuAIwCFaleUMwRaRy2v",
+      "id" : "38yGuAIwCFaleUMwRaRy2v",
+      "is_local" : false,
+      "name" : "Roadhouse Blues (Screamin' Ray Daniels a.k.a. Ray Manzarek On Vocals)",
+      "popularity" : 25,
+      "preview_url" : "https://p.scdn.co/mp3-preview/588dde843bf741b4167b87ff4a9e05d440ede4c5?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:38yGuAIwCFaleUMwRaRy2v"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/568ZhdwyaiCyOGJRtNYhWf"
+          },
+          "href" : "https://api.spotify.com/v1/artists/568ZhdwyaiCyOGJRtNYhWf",
+          "id" : "568ZhdwyaiCyOGJRtNYhWf",
+          "name" : "Deep Purple",
+          "type" : "artist",
+          "uri" : "spotify:artist:568ZhdwyaiCyOGJRtNYhWf"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "ID", "IL", "IN", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/15nE1szoTUhzet5GUQnp4P"
+        },
+        "href" : "https://api.spotify.com/v1/albums/15nE1szoTUhzet5GUQnp4P",
+        "id" : "15nE1szoTUhzet5GUQnp4P",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b27330d4e6b4d124d4d5162f4c9d",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e0230d4e6b4d124d4d5162f4c9d",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d0000485130d4e6b4d124d4d5162f4c9d",
+          "width" : 64
+        } ],
+        "name" : "inFinite",
+        "release_date" : "2017-04-07",
+        "release_date_precision" : "day",
+        "total_tracks" : 10,
+        "type" : "album",
+        "uri" : "spotify:album:15nE1szoTUhzet5GUQnp4P"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/568ZhdwyaiCyOGJRtNYhWf"
+        },
+        "href" : "https://api.spotify.com/v1/artists/568ZhdwyaiCyOGJRtNYhWf",
+        "id" : "568ZhdwyaiCyOGJRtNYhWf",
+        "name" : "Deep Purple",
+        "type" : "artist",
+        "uri" : "spotify:artist:568ZhdwyaiCyOGJRtNYhWf"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GR", "GT", "HK", "HN", "HU", "ID", "IL", "IN", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN" ],
+      "disc_number" : 1,
+      "duration_ms" : 361773,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "DEH841601341"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/47fKowXylhomBMI6t55WrI"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/47fKowXylhomBMI6t55WrI",
+      "id" : "47fKowXylhomBMI6t55WrI",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 39,
+      "preview_url" : "https://p.scdn.co/mp3-preview/bb0823bd03a8f6717d66c2e9241341b0b4fadb5b?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 10,
+      "type" : "track",
+      "uri" : "spotify:track:47fKowXylhomBMI6t55WrI"
+    }, {
+      "album" : {
+        "album_type" : "compilation",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3OIjlStgBVQfGjkiftDAZp"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3OIjlStgBVQfGjkiftDAZp",
+        "id" : "3OIjlStgBVQfGjkiftDAZp",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273d929a107229ef274c8b62e1e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02d929a107229ef274c8b62e1e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851d929a107229ef274c8b62e1e",
+          "width" : 64
+        } ],
+        "name" : "The Future Starts Here: The Essential Doors Hits",
+        "release_date" : "2008-01-28",
+        "release_date_precision" : "day",
+        "total_tracks" : 20,
+        "type" : "album",
+        "uri" : "spotify:album:3OIjlStgBVQfGjkiftDAZp"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 248146,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE10608669"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/4VHvZjaD1sdWA7vC4Dm2Au"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/4VHvZjaD1sdWA7vC4Dm2Au",
+      "id" : "4VHvZjaD1sdWA7vC4Dm2Au",
+      "is_local" : false,
+      "name" : "Roadhouse Blues - New Stereo Mix",
+      "popularity" : 56,
+      "preview_url" : "https://p.scdn.co/mp3-preview/8fe8335e90fde29f90c0990538d05f2cc8793aed?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 10,
+      "type" : "track",
+      "uri" : "spotify:track:4VHvZjaD1sdWA7vC4Dm2Au"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7teTxSPnJrpRoi7BxJ9qTC"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7teTxSPnJrpRoi7BxJ9qTC",
+        "id" : "7teTxSPnJrpRoi7BxJ9qTC",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b27305ea395c7c7dd305375246b8",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e0205ea395c7c7dd305375246b8",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d0000485105ea395c7c7dd305375246b8",
+          "width" : 64
+        } ],
+        "name" : "American Nights - In Concert",
+        "release_date" : "1991-05-17",
+        "release_date_precision" : "day",
+        "total_tracks" : 31,
+        "type" : "album",
+        "uri" : "spotify:album:7teTxSPnJrpRoi7BxJ9qTC"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+      "disc_number" : 2,
+      "duration_ms" : 372200,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE10100594"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0j1p16d1WkdnKCD0v18h3J"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0j1p16d1WkdnKCD0v18h3J",
+      "id" : "0j1p16d1WkdnKCD0v18h3J",
+      "is_local" : false,
+      "name" : "Roadhouse Blues - Live",
+      "popularity" : 42,
+      "preview_url" : "https://p.scdn.co/mp3-preview/181a82fc7dafa756a3f26116ea8aad9e786131b3?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:0j1p16d1WkdnKCD0v18h3J"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/7qj6lZyChZxDGAqzTArHHQ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/7qj6lZyChZxDGAqzTArHHQ",
+        "id" : "7qj6lZyChZxDGAqzTArHHQ",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273c713797493b2d91e50fea750",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02c713797493b2d91e50fea750",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851c713797493b2d91e50fea750",
+          "width" : 64
+        } ],
+        "name" : "An American Prayer",
+        "release_date" : "1978",
+        "release_date_precision" : "year",
+        "total_tracks" : 23,
+        "type" : "album",
+        "uri" : "spotify:album:7qj6lZyChZxDGAqzTArHHQ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 353026,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE10100411"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5ILpNfKpRr7UWyJfk6UTHf"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5ILpNfKpRr7UWyJfk6UTHf",
+      "id" : "5ILpNfKpRr7UWyJfk6UTHf",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 40,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d4c09911fe2c1fbc42ca05ec9e31099fd48152dc?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 13,
+      "type" : "track",
+      "uri" : "spotify:track:5ILpNfKpRr7UWyJfk6UTHf"
+    }, {
+      "album" : {
+        "album_type" : "single",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4ujnm0k3J5yBIO7ZbHBI0G"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4ujnm0k3J5yBIO7ZbHBI0G",
+        "id" : "4ujnm0k3J5yBIO7ZbHBI0G",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/aacf929581606f3c32a5e676e93bb46565fadb10",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/0d672e752980845a510aaeeacb945ca7829c82cd",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ccc917bb3ce00c99418b789a47fc4fdbbd78eed5",
+          "width" : 64
+        } ],
+        "name" : "Roadhouse Blues - Screamin' Ray Daniels (a.k.a. Ray Manzarek)",
+        "release_date" : "2019-07-18",
+        "release_date_precision" : "day",
+        "total_tracks" : 1,
+        "type" : "album",
+        "uri" : "spotify:album:4ujnm0k3J5yBIO7ZbHBI0G"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 328802,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USRH11902730"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/6ZWHpvv0drzmGNE0cJGoL7"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/6ZWHpvv0drzmGNE0cJGoL7",
+      "id" : "6ZWHpvv0drzmGNE0cJGoL7",
+      "is_local" : false,
+      "name" : "Roadhouse Blues (Screamin' Ray Daniels a.k.a. Ray Manzarek On Vocals)",
+      "popularity" : 35,
+      "preview_url" : "https://p.scdn.co/mp3-preview/588dde843bf741b4167b87ff4a9e05d440ede4c5?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:6ZWHpvv0drzmGNE0cJGoL7"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4YBBkcBOQi0kPcC89c3gof"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4YBBkcBOQi0kPcC89c3gof",
+        "id" : "4YBBkcBOQi0kPcC89c3gof",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/c26353704b74bd3971a47063d46a85e4a81775b8",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/66bf35630ee940b47fc4f70e33a578b874c21787",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/994d012e68e63bbf6a61b71dd52d03a9d9392cc8",
+          "width" : 64
+        } ],
+        "name" : "Live at the Isle of Wight Festival 1970",
+        "release_date" : "2018-02-23",
+        "release_date_precision" : "day",
+        "total_tracks" : 8,
+        "type" : "album",
+        "uri" : "spotify:album:4YBBkcBOQi0kPcC89c3gof"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 309800,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBCBR1700288"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0yfr07KdaN1xz3c0iXrVdo"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0yfr07KdaN1xz3c0iXrVdo",
+      "id" : "0yfr07KdaN1xz3c0iXrVdo",
+      "is_local" : false,
+      "name" : "Roadhouse Blues - Live At The Isle Of Wight Festival 1970",
+      "popularity" : 38,
+      "preview_url" : "https://p.scdn.co/mp3-preview/0e3f12aa522ce5336880539ef52aba19afaa0ac8?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:0yfr07KdaN1xz3c0iXrVdo"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4gIdjgLlvgEOz7MexDZzpM",
+          "id" : "4gIdjgLlvgEOz7MexDZzpM",
+          "name" : "Status Quo",
+          "type" : "artist",
+          "uri" : "spotify:artist:4gIdjgLlvgEOz7MexDZzpM"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6jBoX7uQVUMahs0DoJ6qwX"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6jBoX7uQVUMahs0DoJ6qwX",
+        "id" : "6jBoX7uQVUMahs0DoJ6qwX",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2730e734a846268a0b7cef9e0ca",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e020e734a846268a0b7cef9e0ca",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048510e734a846268a0b7cef9e0ca",
+          "width" : 64
+        } ],
+        "name" : "Piledriver (Deluxe)",
+        "release_date" : "1972",
+        "release_date_precision" : "year",
+        "total_tracks" : 23,
+        "type" : "album",
+        "uri" : "spotify:album:6jBoX7uQVUMahs0DoJ6qwX"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4gIdjgLlvgEOz7MexDZzpM",
+        "id" : "4gIdjgLlvgEOz7MexDZzpM",
+        "name" : "Status Quo",
+        "type" : "artist",
+        "uri" : "spotify:artist:4gIdjgLlvgEOz7MexDZzpM"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 448529,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBF087200470"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/456lFrF5OrYuCffSHSaYfs"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/456lFrF5OrYuCffSHSaYfs",
+      "id" : "456lFrF5OrYuCffSHSaYfs",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 23,
+      "preview_url" : null,
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:456lFrF5OrYuCffSHSaYfs"
+    }, {
+      "album" : {
+        "album_type" : "compilation",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1YZiR5FINFOlZPGKSVplIY"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1YZiR5FINFOlZPGKSVplIY",
+        "id" : "1YZiR5FINFOlZPGKSVplIY",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273bf21ee0ee183384e7ca3f4f4",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02bf21ee0ee183384e7ca3f4f4",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851bf21ee0ee183384e7ca3f4f4",
+          "width" : 64
+        } ],
+        "name" : "The Very Best of the Doors",
+        "release_date" : "2007-09-25",
+        "release_date_precision" : "day",
+        "total_tracks" : 39,
+        "type" : "album",
+        "uri" : "spotify:album:1YZiR5FINFOlZPGKSVplIY"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 247466,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE10608669"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/672KpkAb0iQ5rfJyicnZ3h"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/672KpkAb0iQ5rfJyicnZ3h",
+      "id" : "672KpkAb0iQ5rfJyicnZ3h",
+      "is_local" : false,
+      "name" : "Roadhouse Blues - New Stereo Mix",
+      "popularity" : 34,
+      "preview_url" : "https://p.scdn.co/mp3-preview/bbaf3cad9b09f3e69932ce9715f2efdbf800c3c6?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 34,
+      "type" : "track",
+      "uri" : "spotify:track:672KpkAb0iQ5rfJyicnZ3h"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/27DiJLrgQmrf28DO4cdwY3"
+        },
+        "href" : "https://api.spotify.com/v1/albums/27DiJLrgQmrf28DO4cdwY3",
+        "id" : "27DiJLrgQmrf28DO4cdwY3",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273e928ce7e644f9a0fec804f33",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02e928ce7e644f9a0fec804f33",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851e928ce7e644f9a0fec804f33",
+          "width" : 64
+        } ],
+        "name" : "The Doors (Original Soundtrack Recording)",
+        "release_date" : "1991-01-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 12,
+        "type" : "album",
+        "uri" : "spotify:album:27DiJLrgQmrf28DO4cdwY3"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 353026,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE10100411"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1SEJLX94RMARFZaY3Mr3AQ"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1SEJLX94RMARFZaY3Mr3AQ",
+      "id" : "1SEJLX94RMARFZaY3Mr3AQ",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 26,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d4c09911fe2c1fbc42ca05ec9e31099fd48152dc?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:1SEJLX94RMARFZaY3Mr3AQ"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/1mZu3rO7qSD09GdDpePHhY"
+          },
+          "href" : "https://api.spotify.com/v1/artists/1mZu3rO7qSD09GdDpePHhY",
+          "id" : "1mZu3rO7qSD09GdDpePHhY",
+          "name" : "Frankie Goes To Hollywood",
+          "type" : "artist",
+          "uri" : "spotify:artist:1mZu3rO7qSD09GdDpePHhY"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0cKlezvgnC96z4dA7IiKxJ"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0cKlezvgnC96z4dA7IiKxJ",
+        "id" : "0cKlezvgnC96z4dA7IiKxJ",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b27387c46504660ace03fce2a52e",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e0287c46504660ace03fce2a52e",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d0000485187c46504660ace03fce2a52e",
+          "width" : 64
+        } ],
+        "name" : "Liverpool (Deluxe Edition)",
+        "release_date" : "1986-10-20",
+        "release_date_precision" : "day",
+        "total_tracks" : 23,
+        "type" : "album",
+        "uri" : "spotify:album:0cKlezvgnC96z4dA7IiKxJ"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/1mZu3rO7qSD09GdDpePHhY"
+        },
+        "href" : "https://api.spotify.com/v1/artists/1mZu3rO7qSD09GdDpePHhY",
+        "id" : "1mZu3rO7qSD09GdDpePHhY",
+        "name" : "Frankie Goes To Hollywood",
+        "type" : "artist",
+        "uri" : "spotify:artist:1mZu3rO7qSD09GdDpePHhY"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 246026,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBAHW0900010"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5bq7F8lP4681AsLHGYUZCu"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5bq7F8lP4681AsLHGYUZCu",
+      "id" : "5bq7F8lP4681AsLHGYUZCu",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 18,
+      "preview_url" : "https://p.scdn.co/mp3-preview/d099e3acee9eec54d5213a7f5149bb97bc3d8065?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:5bq7F8lP4681AsLHGYUZCu"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3d2hJTVTwo08F9b0ZFQukJ"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3d2hJTVTwo08F9b0ZFQukJ",
+          "id" : "3d2hJTVTwo08F9b0ZFQukJ",
+          "name" : "The Jeff Healey Band",
+          "type" : "artist",
+          "uri" : "spotify:artist:3d2hJTVTwo08F9b0ZFQukJ"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/2SyACRkSAKc9RmrufB6W1W"
+        },
+        "href" : "https://api.spotify.com/v1/albums/2SyACRkSAKc9RmrufB6W1W",
+        "id" : "2SyACRkSAKc9RmrufB6W1W",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2739eca7e2e75332b18939b4fb3",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e029eca7e2e75332b18939b4fb3",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048519eca7e2e75332b18939b4fb3",
+          "width" : 64
+        } ],
+        "name" : "Live At The Legendary Horseshoe Tavern 1993",
+        "release_date" : "2014-01-01",
+        "release_date_precision" : "day",
+        "total_tracks" : 14,
+        "type" : "album",
+        "uri" : "spotify:album:2SyACRkSAKc9RmrufB6W1W"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3d2hJTVTwo08F9b0ZFQukJ"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3d2hJTVTwo08F9b0ZFQukJ",
+        "id" : "3d2hJTVTwo08F9b0ZFQukJ",
+        "name" : "The Jeff Healey Band",
+        "type" : "artist",
+        "uri" : "spotify:artist:3d2hJTVTwo08F9b0ZFQukJ"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 412589,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USZXT1400388"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/3Rp4VgnNR77Bls7teQxT1Q"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/3Rp4VgnNR77Bls7teQxT1Q",
+      "id" : "3Rp4VgnNR77Bls7teQxT1Q",
+      "is_local" : false,
+      "name" : "Roadhouse Blues - Live",
+      "popularity" : 25,
+      "preview_url" : null,
+      "track_number" : 11,
+      "type" : "track",
+      "uri" : "spotify:track:3Rp4VgnNR77Bls7teQxT1Q"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4Vo7jk7sjpIFMk14dedex5"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4Vo7jk7sjpIFMk14dedex5",
+          "id" : "4Vo7jk7sjpIFMk14dedex5",
+          "name" : "Draco Rosa",
+          "type" : "artist",
+          "uri" : "spotify:artist:4Vo7jk7sjpIFMk14dedex5"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/57iTs5NvrkFYKs6uTXzehd"
+        },
+        "href" : "https://api.spotify.com/v1/albums/57iTs5NvrkFYKs6uTXzehd",
+        "id" : "57iTs5NvrkFYKs6uTXzehd",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2730867ff8e0f5d44b3d08ed8fe",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e020867ff8e0f5d44b3d08ed8fe",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048510867ff8e0f5d44b3d08ed8fe",
+          "width" : 64
+        } ],
+        "name" : "Teatro Live",
+        "release_date" : "2008-09-30",
+        "release_date_precision" : "day",
+        "total_tracks" : 14,
+        "type" : "album",
+        "uri" : "spotify:album:57iTs5NvrkFYKs6uTXzehd"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4Vo7jk7sjpIFMk14dedex5"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4Vo7jk7sjpIFMk14dedex5",
+        "id" : "4Vo7jk7sjpIFMk14dedex5",
+        "name" : "Draco Rosa",
+        "type" : "artist",
+        "uri" : "spotify:artist:4Vo7jk7sjpIFMk14dedex5"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 267146,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USTC60873271"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/7HuoJ0UReDU1ExPqUEfJQi"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/7HuoJ0UReDU1ExPqUEfJQi",
+      "id" : "7HuoJ0UReDU1ExPqUEfJQi",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 13,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1055569886c3f1c6251739b4f53e261bbc56977c?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 6,
+      "type" : "track",
+      "uri" : "spotify:track:7HuoJ0UReDU1ExPqUEfJQi"
+    }, {
+      "album" : {
+        "album_type" : "compilation",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/0I4qWmnLr665zzPdIhRIB5"
+        },
+        "href" : "https://api.spotify.com/v1/albums/0I4qWmnLr665zzPdIhRIB5",
+        "id" : "0I4qWmnLr665zzPdIhRIB5",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273b22bbf5ada4099cfd4cc5a73",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02b22bbf5ada4099cfd4cc5a73",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851b22bbf5ada4099cfd4cc5a73",
+          "width" : 64
+        } ],
+        "name" : "The Complete Studio Albums",
+        "release_date" : "2012-10-22",
+        "release_date_precision" : "day",
+        "total_tracks" : 79,
+        "type" : "album",
+        "uri" : "spotify:album:0I4qWmnLr665zzPdIhRIB5"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 5,
+      "duration_ms" : 244440,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE11300749"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/1AcCMOSqANTwaIznIxO3Ww"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/1AcCMOSqANTwaIznIxO3Ww",
+      "id" : "1AcCMOSqANTwaIznIxO3Ww",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 30,
+      "preview_url" : "https://p.scdn.co/mp3-preview/838cd6fed30bd4f6dcce378e134eab9cf5140936?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 1,
+      "type" : "track",
+      "uri" : "spotify:track:1AcCMOSqANTwaIznIxO3Ww"
+    }, {
+      "album" : {
+        "album_type" : "compilation",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+          },
+          "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+          "id" : "22WZ7M8sxp5THdruNY3gXt",
+          "name" : "The Doors",
+          "type" : "artist",
+          "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/1YZiR5FINFOlZPGKSVplIY"
+        },
+        "href" : "https://api.spotify.com/v1/albums/1YZiR5FINFOlZPGKSVplIY",
+        "id" : "1YZiR5FINFOlZPGKSVplIY",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273bf21ee0ee183384e7ca3f4f4",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02bf21ee0ee183384e7ca3f4f4",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851bf21ee0ee183384e7ca3f4f4",
+          "width" : 64
+        } ],
+        "name" : "The Very Best of the Doors",
+        "release_date" : "2007-09-25",
+        "release_date_precision" : "day",
+        "total_tracks" : 39,
+        "type" : "album",
+        "uri" : "spotify:album:1YZiR5FINFOlZPGKSVplIY"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/22WZ7M8sxp5THdruNY3gXt"
+        },
+        "href" : "https://api.spotify.com/v1/artists/22WZ7M8sxp5THdruNY3gXt",
+        "id" : "22WZ7M8sxp5THdruNY3gXt",
+        "name" : "The Doors",
+        "type" : "artist",
+        "uri" : "spotify:artist:22WZ7M8sxp5THdruNY3gXt"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/5eKLa1xyHLq8ERWmT1CRHj"
+        },
+        "href" : "https://api.spotify.com/v1/artists/5eKLa1xyHLq8ERWmT1CRHj",
+        "id" : "5eKLa1xyHLq8ERWmT1CRHj",
+        "name" : "The Crystal Method",
+        "type" : "artist",
+        "uri" : "spotify:artist:5eKLa1xyHLq8ERWmT1CRHj"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IS", "IT", "JO", "JP", "KW", "LB", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 297080,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USEE10504515"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0WKWG0jRr62dzriEHu53S9"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0WKWG0jRr62dzriEHu53S9",
+      "id" : "0WKWG0jRr62dzriEHu53S9",
+      "is_local" : false,
+      "name" : "Roadhouse Blues - Crystal Method Remix",
+      "popularity" : 28,
+      "preview_url" : "https://p.scdn.co/mp3-preview/8a04b21d668a5dc1cb8486bd0e0d0189ee9b060b?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 39,
+      "type" : "track",
+      "uri" : "spotify:track:0WKWG0jRr62dzriEHu53S9"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/24sWopYyKz8oka3O4Cp1BC"
+          },
+          "href" : "https://api.spotify.com/v1/artists/24sWopYyKz8oka3O4Cp1BC",
+          "id" : "24sWopYyKz8oka3O4Cp1BC",
+          "name" : "Aaron Kaplan",
+          "type" : "artist",
+          "uri" : "spotify:artist:24sWopYyKz8oka3O4Cp1BC"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/4pIE8Tl44YtRZBAAlwoNST"
+        },
+        "href" : "https://api.spotify.com/v1/albums/4pIE8Tl44YtRZBAAlwoNST",
+        "id" : "4pIE8Tl44YtRZBAAlwoNST",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b273e32c9b47ecc1dac368fbbccf",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e02e32c9b47ecc1dac368fbbccf",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d00004851e32c9b47ecc1dac368fbbccf",
+          "width" : 64
+        } ],
+        "name" : "The Moonshine Music Co: Roadhouse Blues 2",
+        "release_date" : "2018-09-24",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:4pIE8Tl44YtRZBAAlwoNST"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/24sWopYyKz8oka3O4Cp1BC"
+        },
+        "href" : "https://api.spotify.com/v1/artists/24sWopYyKz8oka3O4Cp1BC",
+        "id" : "24sWopYyKz8oka3O4Cp1BC",
+        "name" : "Aaron Kaplan",
+        "type" : "artist",
+        "uri" : "spotify:artist:24sWopYyKz8oka3O4Cp1BC"
+      }, {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3CLPbUd8i6kkgnjZGHqH3Z"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3CLPbUd8i6kkgnjZGHqH3Z",
+        "id" : "3CLPbUd8i6kkgnjZGHqH3Z",
+        "name" : "Jamison Hollister",
+        "type" : "artist",
+        "uri" : "spotify:artist:3CLPbUd8i6kkgnjZGHqH3Z"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 155356,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBBPP1853522"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0lQNLh7EHWcf67WVPZ9Et0"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0lQNLh7EHWcf67WVPZ9Et0",
+      "id" : "0lQNLh7EHWcf67WVPZ9Et0",
+      "is_local" : false,
+      "name" : "Mating Season",
+      "popularity" : 30,
+      "preview_url" : "https://p.scdn.co/mp3-preview/a3427f36652ddadb5f3c5c9a6ce41227a01d77f8?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 12,
+      "type" : "track",
+      "uri" : "spotify:track:0lQNLh7EHWcf67WVPZ9Et0"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4gIdjgLlvgEOz7MexDZzpM",
+          "id" : "4gIdjgLlvgEOz7MexDZzpM",
+          "name" : "Status Quo",
+          "type" : "artist",
+          "uri" : "spotify:artist:4gIdjgLlvgEOz7MexDZzpM"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/3KbzdYJIU2TcgeqQnTVdL8"
+        },
+        "href" : "https://api.spotify.com/v1/albums/3KbzdYJIU2TcgeqQnTVdL8",
+        "id" : "3KbzdYJIU2TcgeqQnTVdL8",
+        "images" : [ {
+          "height" : 632,
+          "url" : "https://i.scdn.co/image/90fe79162399af52dabf054792bd7a23a93f1fa6",
+          "width" : 640
+        }, {
+          "height" : 296,
+          "url" : "https://i.scdn.co/image/c837e35fb61fdfe2bf9fbf2052d75b5faa242ca5",
+          "width" : 300
+        }, {
+          "height" : 63,
+          "url" : "https://i.scdn.co/image/b3093d3730d232de2ba8d412b4b85acf46865837",
+          "width" : 64
+        } ],
+        "name" : "Live",
+        "release_date" : "1977-01-28",
+        "release_date_precision" : "day",
+        "total_tracks" : 13,
+        "type" : "album",
+        "uri" : "spotify:album:3KbzdYJIU2TcgeqQnTVdL8"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4gIdjgLlvgEOz7MexDZzpM",
+        "id" : "4gIdjgLlvgEOz7MexDZzpM",
+        "name" : "Status Quo",
+        "type" : "artist",
+        "uri" : "spotify:artist:4gIdjgLlvgEOz7MexDZzpM"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+      "disc_number" : 2,
+      "duration_ms" : 861040,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBF080080113"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/0c1GIBMqmuHfiNzTsWgaZR"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/0c1GIBMqmuHfiNzTsWgaZR",
+      "id" : "0c1GIBMqmuHfiNzTsWgaZR",
+      "is_local" : false,
+      "name" : "Roadhouse Blues - Live At Glasgow Apollo, Glasgow / 1976",
+      "popularity" : 21,
+      "preview_url" : null,
+      "track_number" : 4,
+      "type" : "track",
+      "uri" : "spotify:track:0c1GIBMqmuHfiNzTsWgaZR"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/3mGCLimuzOdod4Lnegny4d"
+          },
+          "href" : "https://api.spotify.com/v1/artists/3mGCLimuzOdod4Lnegny4d",
+          "id" : "3mGCLimuzOdod4Lnegny4d",
+          "name" : "Twinkle Twinkle Little Rock Star",
+          "type" : "artist",
+          "uri" : "spotify:artist:3mGCLimuzOdod4Lnegny4d"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6C0Udhvp6XXI17VJg6Bp5D"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6C0Udhvp6XXI17VJg6Bp5D",
+        "id" : "6C0Udhvp6XXI17VJg6Bp5D",
+        "images" : [ {
+          "height" : 640,
+          "url" : "https://i.scdn.co/image/ab67616d0000b2733c6fcffc655943f2845f58a5",
+          "width" : 640
+        }, {
+          "height" : 300,
+          "url" : "https://i.scdn.co/image/ab67616d00001e023c6fcffc655943f2845f58a5",
+          "width" : 300
+        }, {
+          "height" : 64,
+          "url" : "https://i.scdn.co/image/ab67616d000048513c6fcffc655943f2845f58a5",
+          "width" : 64
+        } ],
+        "name" : "Lullaby Versions of The Doors",
+        "release_date" : "2013-02-05",
+        "release_date_precision" : "day",
+        "total_tracks" : 12,
+        "type" : "album",
+        "uri" : "spotify:album:6C0Udhvp6XXI17VJg6Bp5D"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/3mGCLimuzOdod4Lnegny4d"
+        },
+        "href" : "https://api.spotify.com/v1/artists/3mGCLimuzOdod4Lnegny4d",
+        "id" : "3mGCLimuzOdod4Lnegny4d",
+        "name" : "Twinkle Twinkle Little Rock Star",
+        "type" : "artist",
+        "uri" : "spotify:artist:3mGCLimuzOdod4Lnegny4d"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MX", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PS", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "US", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 253119,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "USQY51300092"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/397VVFxytJRlx1EuRRHZsU"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/397VVFxytJRlx1EuRRHZsU",
+      "id" : "397VVFxytJRlx1EuRRHZsU",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 11,
+      "preview_url" : "https://p.scdn.co/mp3-preview/1bf3d05fcb1cff156aec0c89f49ec02f5eaece53?cid=1e4d7f1034f94092a084cd6ae08393b3",
+      "track_number" : 10,
+      "type" : "track",
+      "uri" : "spotify:track:397VVFxytJRlx1EuRRHZsU"
+    }, {
+      "album" : {
+        "album_type" : "album",
+        "artists" : [ {
+          "external_urls" : {
+            "spotify" : "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM"
+          },
+          "href" : "https://api.spotify.com/v1/artists/4gIdjgLlvgEOz7MexDZzpM",
+          "id" : "4gIdjgLlvgEOz7MexDZzpM",
+          "name" : "Status Quo",
+          "type" : "artist",
+          "uri" : "spotify:artist:4gIdjgLlvgEOz7MexDZzpM"
+        } ],
+        "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/album/6zUxfx6J869LxWmqEPcAx2"
+        },
+        "href" : "https://api.spotify.com/v1/albums/6zUxfx6J869LxWmqEPcAx2",
+        "id" : "6zUxfx6J869LxWmqEPcAx2",
+        "images" : [ {
+          "height" : 635,
+          "url" : "https://i.scdn.co/image/9defc3bdab91d82cacdca3c8df2f5e8961823ab2",
+          "width" : 640
+        }, {
+          "height" : 297,
+          "url" : "https://i.scdn.co/image/9ecb27453b51e2310f10908cbe64f35567d204cc",
+          "width" : 300
+        }, {
+          "height" : 63,
+          "url" : "https://i.scdn.co/image/aa40eb85d6248298258d2a8afb0a217bb646c6c9",
+          "width" : 64
+        } ],
+        "name" : "Piledriver",
+        "release_date" : "1972",
+        "release_date_precision" : "year",
+        "total_tracks" : 9,
+        "type" : "album",
+        "uri" : "spotify:album:6zUxfx6J869LxWmqEPcAx2"
+      },
+      "artists" : [ {
+        "external_urls" : {
+          "spotify" : "https://open.spotify.com/artist/4gIdjgLlvgEOz7MexDZzpM"
+        },
+        "href" : "https://api.spotify.com/v1/artists/4gIdjgLlvgEOz7MexDZzpM",
+        "id" : "4gIdjgLlvgEOz7MexDZzpM",
+        "name" : "Status Quo",
+        "type" : "artist",
+        "uri" : "spotify:artist:4gIdjgLlvgEOz7MexDZzpM"
+      } ],
+      "available_markets" : [ "AD", "AE", "AR", "AT", "AU", "BE", "BG", "BH", "BO", "BR", "CA", "CH", "CL", "CO", "CR", "CY", "CZ", "DE", "DK", "DO", "DZ", "EC", "EE", "EG", "ES", "FI", "FR", "GB", "GR", "GT", "HK", "HN", "HU", "ID", "IE", "IL", "IN", "IS", "IT", "JO", "JP", "KW", "LB", "LI", "LT", "LU", "LV", "MA", "MC", "MT", "MY", "NI", "NL", "NO", "NZ", "OM", "PA", "PE", "PH", "PL", "PT", "PY", "QA", "RO", "SA", "SE", "SG", "SK", "SV", "TH", "TN", "TR", "TW", "UY", "VN", "ZA" ],
+      "disc_number" : 1,
+      "duration_ms" : 451080,
+      "explicit" : false,
+      "external_ids" : {
+        "isrc" : "GBF087200470"
+      },
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/track/5Sxlp5uRsMxa9NHySN642J"
+      },
+      "href" : "https://api.spotify.com/v1/tracks/5Sxlp5uRsMxa9NHySN642J",
+      "id" : "5Sxlp5uRsMxa9NHySN642J",
+      "is_local" : false,
+      "name" : "Roadhouse Blues",
+      "popularity" : 21,
+      "preview_url" : null,
+      "track_number" : 8,
+      "type" : "track",
+      "uri" : "spotify:track:5Sxlp5uRsMxa9NHySN642J"
+    } ],
+    "limit" : 20,
+    "next" : "https://api.spotify.com/v1/search?query=roadhouse+blues&type=track&offset=20&limit=20",
+    "offset" : 0,
+    "previous" : null,
+    "total" : 834
+  }
+}

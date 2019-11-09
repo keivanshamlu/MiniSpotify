@@ -25,7 +25,7 @@
             <TextView
                 android:text="@string/login_from_application"
                 android:layout_centerInParent="true"
-                android:id="@+id/toolbarTextView"
+                android:id="@+id/loginFromApptextView"
                 android:layout_marginLeft="20dp"
                 android:layout_centerVertical="true"
                 android:textColor="@color/colorWhite"
@@ -45,6 +45,7 @@
             >
 
             <TextView
+                android:id="@+id/loginFromBrowserTextView"
                 android:text="@string/login_from_browser"
                 android:layout_centerInParent="true"
                 android:layout_marginLeft="20dp"
@@ -57,11 +58,11 @@
         </RelativeLayout>
 
         <TextView
-            android:layout_marginBottom="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/loginFromBrowser"
             android:layout_centerHorizontal="true"
             android:text="@string/don_t_forget_to_use_vpn"
             android:layout_marginLeft="20dp"
-            android:layout_alignParentBottom="true"
             android:textColor="@color/colorBlue"
             android:textSize="22dp"
             android:layout_width="wrap_content"

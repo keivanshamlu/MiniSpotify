@@ -1,6 +1,6 @@
 package com.example.minispotify.di.mainActivity.search
 
-import android.app.Application
+import com.example.minispotify.managers.RequestManager
 import com.example.minispotify.network.search.SearchSpotify
 import com.example.minispotify.repository.SearchRepository
 import dagger.Module
@@ -14,9 +14,9 @@ import retrofit2.Retrofit
 class SearchFragmentModule {
 
     @Provides
-    fun provideSearchRepository( searchSpotify: SearchSpotify , application: Application): SearchRepository {
+    fun provideSearchRepository( searchSpotify: SearchSpotify , requestManager : RequestManager ): SearchRepository {
 
-        return SearchRepository( searchSpotify , application)
+        return SearchRepository( searchSpotify , requestManager )
     }
 
     @Provides

@@ -1,6 +1,6 @@
 package com.example.minispotify.util
 
-import com.example.minispotify.SessionManager
+import com.example.minispotify.managers.SessionManager
 import okhttp3.Interceptor
 import okhttp3.Response
 import javax.inject.Inject
@@ -15,7 +15,7 @@ class BasicAuthInterceptor
     override fun intercept(chain: Interceptor.Chain): Response {
         val request = chain.request()
         val authenticatedRequest = request.newBuilder()
-            .header("Authorization", sessionManager.getAccessToken()).build()
+            .header("Authorization", sessionManager.getAccessToken().toString()).build()
         return chain.proceed(authenticatedRequest)
     }
 }

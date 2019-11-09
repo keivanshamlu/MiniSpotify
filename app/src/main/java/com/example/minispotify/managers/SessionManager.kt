@@ -1,6 +1,7 @@
-package com.example.minispotify
+package com.example.minispotify.managers
 
 import android.app.Application
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.example.minispotify.model.User
 import com.example.minispotify.util.AuthResource
@@ -28,12 +29,13 @@ constructor(val application: Application) {
         cachedUserLiveData.value = AuthResource.error(errorMessage , null)
     }
     fun setUser(user : User){
-
+        Log.e("Tokennnnn " , user.token)
         cachedUserLiveData.value = AuthResource.authenticated(user)
 
     }
 
     fun logOutUser(){
+
 
         cachedUserLiveData.value = AuthResource.unAthenticated("" , null)
     }
