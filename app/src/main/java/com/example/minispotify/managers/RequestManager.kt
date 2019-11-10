@@ -1,6 +1,5 @@
 package com.example.minispotify.managers
 
-import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import com.example.minispotify.model.Request
 import com.example.minispotify.util.RequestResource
@@ -9,9 +8,9 @@ import javax.inject.Singleton
 
 
 /**
- * holds state of user in app lifeTime
- * this hold a failed request and the
- * implementation is in the repository
+ * holds last failed request and contains the
+ * connection state of device , implementation
+ * of login of request parking is in repository
  */
 @Singleton
 class RequestManager
@@ -28,13 +27,11 @@ class RequestManager
     fun setRequest( request : RequestResource<Request>){
 
 
-        Log.e("keivan test 2 " , request.status.name)
         cachedRequest.value = request
     }
 
     fun clearRequests(){
 
-        Log.e("keivan test 2 " , "clear")
         cachedRequest.value = null
     }
 

@@ -37,7 +37,7 @@ class TrackDetailsRepository
      * when connection state is idle to have a request
      * again , it call getAudioFeatures
      */
-    fun networkStateChanged(isConnected : Boolean) : Boolean{
+    fun networkStateChanged(isConnected : Boolean){
 
 
 
@@ -49,7 +49,6 @@ class TrackDetailsRepository
             }
         }
 
-        return isConnected
     }
 
     /**
@@ -66,6 +65,8 @@ class TrackDetailsRepository
 
                 try {
 
+                    // this is a suspend function so it will wait until
+                    // request is done
                     var registerResult = audioFeaturesService.getAudioFeatures(trackId)
 
 
@@ -75,12 +76,16 @@ class TrackDetailsRepository
 
                             // if request is successfull , we fill Resource class and set it to livedata
                             getAudioFeaturesLiveData.value = Resource.success(registerResult.body())
+
+                            //if it's successful then why holding last request?
                             requestManager.clearRequests()
                         } else {
 
                             // if request is unSuccessfull , we fill Resource class and set it to livedata
                             getAudioFeaturesLiveData.value =
                                 Resource.error(registerResult.message(), null)
+
+                            // save request for trying again later
                             requestManager.setRequest(RequestResource.audiofeatures(Request(trackId = trackId)))
                         }
                     }
@@ -89,12 +94,15 @@ class TrackDetailsRepository
                     withContext(Main) {
 
                         getAudioFeaturesLiveData.value = Resource.error("conenction_faled", null)
+
+                        // save request for trying again later
                         requestManager.setRequest(RequestResource.audiofeatures(Request(trackId = trackId)))
                     }
                 }
             }
         }else{
 
+            // save request for trying again later
             requestManager.setRequest(RequestResource.audiofeatures(Request(trackId = trackId)))
         }
 

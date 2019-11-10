@@ -26,6 +26,7 @@ import javax.inject.Inject
 
 class MainActivity : DaggerAppCompatActivity() , View.OnClickListener , ConnectivityReceiver.ConnectivityReceiverListener {
 
+    //observes device connetion state and set it in request manager
     override fun onNetworkConnectionChanged(isConnected: Boolean) {
 
         requestManager.setConnectionStatus(isConnected)
@@ -89,6 +90,7 @@ class MainActivity : DaggerAppCompatActivity() , View.OnClickListener , Connecti
         ConnectivityReceiver.connectivityReceiverListener = this
     }
 
+
     /**
      * when user authenticates using application
      * , result will come up here
@@ -146,6 +148,9 @@ class MainActivity : DaggerAppCompatActivity() , View.OnClickListener , Connecti
 
                 AuthenticationResponse.Type.TOKEN -> {
 
+                    //this eill come up when authentication is successfull
+                    //we set data in session manager and session manager
+                    // will handle it all in base fragment
                     sessionManager.setUser(User("Bearer "+response.accessToken , LoginType.FROM_BROWSER))
                 }
                 AuthenticationResponse.Type.CODE -> {

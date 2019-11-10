@@ -18,14 +18,14 @@ import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 class SearchRepository
-@Inject constructor(var searchSpotify: SearchSpotify , var requestManager: RequestManager ) {
+@Inject constructor(var searchSpotify: SearchSpotify, var requestManager: RequestManager) {
 
     val tracksLiveData = MutableLiveData<Resource<SearchResult>>()
     val isConnected = MediatorLiveData<Boolean>()
 
     init {
 
-        isConnected.addSource(requestManager.internetConnected){
+        isConnected.addSource(requestManager.internetConnected) {
 
             isConnected.value = it
             networkStateChanged(it)
@@ -34,29 +34,30 @@ class SearchRepository
     }
 
 
-    fun networkStateChanged(isConnected : Boolean) : Boolean{
+    fun networkStateChanged(isConnected: Boolean) {
 
-        if(isConnected){
+        if (isConnected) {
 
-            if(requestManager.cachedRequest.value?.status == RequestDetector.SEARCH){
+            if (requestManager.cachedRequest.value?.status == RequestDetector.SEARCH) {
 
                 searchInSpotify(requestManager.cachedRequest.value?.data!!.searchText)
             }
         }
 
-        return isConnected
     }
 
-    fun searchInSpotify(searchText :String) {
+    fun searchInSpotify(searchText: String) {
 
-        if(isConnected.value!!){
+        if (isConnected.value!!) {
 
             // we set resource state to loading to react showing progressbar in view
             tracksLiveData.value = Resource.loading(null)
             CoroutineScope(IO).launch {
 
                 try {
-                    var registerResult = searchSpotify.searchSpotify( searchText, TRACK_TYPE)
+                    // this is a suspend function so it will wait until
+                    // request is done
+                    var registerResult = searchSpotify.searchSpotify(searchText, TRACK_TYPE)
 
 
                     withContext(Main) {
@@ -64,12 +65,16 @@ class SearchRepository
                         if (registerResult!!.isSuccessful) {
 
                             // if request is successfull , we fill Resource class and set it to livedata
-                                tracksLiveData.value = Resource.success(registerResult.body())
+                            tracksLiveData.value = Resource.success(registerResult.body())
+
+                            //if it's successful then why holding last request?
                             requestManager.clearRequests()
                         } else {
 
                             // if request is unSuccessfull , we fill Resource class and set it to livedata
-                            tracksLiveData.value = Resource.error(registerResult.code().toString(), null)
+                            tracksLiveData.value =
+                                Resource.error(registerResult.code().toString(), null)
+                            // save request for trying again later
                             requestManager.setRequest(RequestResource.search(Request(searchText = searchText)))
                         }
                     }
@@ -78,12 +83,15 @@ class SearchRepository
                     withContext(Main) {
 
                         tracksLiveData.value = Resource.error("conenction_faled", null)
+
+                        // save request for trying again later
                         requestManager.setRequest(RequestResource.search(Request(searchText = searchText)))
                     }
                 }
             }
-        }else{
+        } else {
 
+            // save request for trying again later
             requestManager.setRequest(RequestResource.search(Request(searchText = searchText)))
         }
 

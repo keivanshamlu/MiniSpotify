@@ -47,7 +47,10 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
             "trackItem" to item
         )
 
-        navController!!.navigate(R.id.action_searchFragment_to_trackDetailsFragment , bundleToTrackDetailsFragment)
+        navController!!.navigate(
+            R.id.action_searchFragment_to_trackDetailsFragment,
+            bundleToTrackDetailsFragment
+        )
     }
 
     @Inject
@@ -89,7 +92,6 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
     fun attachTextWatcher() {
 
 
-
         //in doOnNext we check if entered text is not empty and to equal to last searched text
         //and after that we set counting idling resources to increment one
         //because thats the time that request happens
@@ -97,7 +99,7 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
         var editTextBinding = mainSearchText
             .textChanges()
             .doOnNext {
-                if(!it.toString().isEmpty() && viewModel.lastSearchedText.value != it.toString()){
+                if (!it.toString().isEmpty() && viewModel.lastSearchedText.value != it.toString()) {
 
                     (activity as MainActivity).idlingResource.increment()
                 }
@@ -105,12 +107,12 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
             .debounce(800, TimeUnit.MILLISECONDS)
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
-                if(it.toString().isEmpty()){
+                if (it.toString().isEmpty()) {
                     tracksRecyclerView.visibility = View.GONE
-                }else{
+                } else {
                     Log.e("MainActivity", it.toString())
 
-                    if(viewModel.lastSearchedText.value != it.toString()){
+                    if (viewModel.lastSearchedText.value != it.toString()) {
                         requesting = true
 
                         viewModel.searchSpotify(it.toString())
@@ -135,7 +137,7 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
 
             handleSearchResult(it)
         })
-        viewModel.isConnected.observe(this , Observer {
+        viewModel.isConnected.observe(this, Observer {
 
             internetConnectionStatus(it)
         })
@@ -144,7 +146,7 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
     /**
      * keep tracks of user connection state
      */
-    fun internetConnectionStatus(isConnected : Boolean){
+    fun internetConnectionStatus(isConnected: Boolean) {
 
     }
 
@@ -182,16 +184,16 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
      * so when we set idling resource data , we should know about
      * that and we handle it with requesting var
      */
-    fun handleError(result: Resource<SearchResult>){
+    fun handleError(result: Resource<SearchResult>) {
 
-        if(requesting){
+        if (requesting) {
 
             (activity as MainActivity).idlingResource.decrement()
             requesting = false
         }
         setSearchBarLoading(false)
         tracksRecyclerView.visibility = View.GONE
-        Toast.makeText(activity , result.message , Toast.LENGTH_LONG).show()
+        Toast.makeText(activity, result.message, Toast.LENGTH_LONG).show()
     }
 
     /**
@@ -204,28 +206,28 @@ class SearchFragment : BaseFragment(), TracksAdapter.Interaction {
      * so when we set idling resource data , we should know about
      * that and we handle it with requesting var
      */
-    fun handleSuccess(result: Resource<SearchResult>){
+    fun handleSuccess(result: Resource<SearchResult>) {
 
-        if(requesting){
+        if (requesting) {
 
             (activity as MainActivity).idlingResource.decrement()
             requesting = false
         }
         setSearchBarLoading(false)
         tracksRecyclerView.visibility = View.VISIBLE
-        var searchResultData : SearchResult? = result.data
+        var searchResultData: SearchResult? = result.data
         tracksAdapter.submitList(searchResultData?.tracks!!.items)
     }
 
     /**
      * set seachbar loading veiws
      */
-    fun setSearchBarLoading(isLoading : Boolean){
+    fun setSearchBarLoading(isLoading: Boolean) {
 
-        if(isLoading){
+        if (isLoading) {
 
             searchBarProgressBar.visibility = View.VISIBLE
-        }else{
+        } else {
 
             searchBarProgressBar.visibility = View.GONE
         }

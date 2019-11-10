@@ -99,6 +99,9 @@ class TrackDetailsFragment : BaseFragment() {
         })
     }
 
+    /**
+     * to observe user's device connection state
+     */
     fun handleConnectionStatus(isConnected : Boolean?){
 
     }
@@ -113,20 +116,16 @@ class TrackDetailsFragment : BaseFragment() {
         when(result?.status){
 
             Status.SUCCESS -> {
-                (activity as MainActivity).idlingResource.decrement()
-                mBinding.audioFeaturesResult = result.data
-                mBinding.audioFeaturesLoading = false
-                mBinding.errorMode = false
+
+                handleSuccess(result)
             }
             Status.ERROR -> {
-                mBinding.errorMode = true
-                (activity as MainActivity).idlingResource.decrement()
-                Toast.makeText(activity , result.message , Toast.LENGTH_LONG).show()
-                setAudioFeaturesError()
+
+               handleError(result)
             }
             Status.LOADING -> {
-                mBinding.errorMode = false
-                mBinding.audioFeaturesLoading = true
+
+                handleLoading()
             }
         }
         if(result == null){
@@ -134,6 +133,38 @@ class TrackDetailsFragment : BaseFragment() {
             mBinding.errorMode = true
             setAudioFeaturesError()
         }
+    }
+
+
+    /**
+     * to handle successfull audio features request
+     */
+    fun handleSuccess(result : Resource<AudioFeaturesResult>?){
+
+        (activity as MainActivity).idlingResource.decrement()
+        mBinding.audioFeaturesResult = result?.data
+        mBinding.audioFeaturesLoading = false
+        mBinding.errorMode = false
+    }
+
+    /**
+     * to handle error audio features request
+     */
+    fun handleError(result : Resource<AudioFeaturesResult>?){
+
+        mBinding.errorMode = true
+        (activity as MainActivity).idlingResource.decrement()
+        Toast.makeText(activity , result?.message , Toast.LENGTH_LONG).show()
+        setAudioFeaturesError()
+    }
+
+    /**
+     * to handle loading audio features request
+     */
+    fun handleLoading(){
+
+        mBinding.errorMode = false
+        mBinding.audioFeaturesLoading = true
     }
 
     /**
