@@ -83,6 +83,4 @@ class ApplicationFlowTest {
         onView(withId(com.example.minispotify.R.id.energy)).check(matches(withText(containsString("0.578"))))
 
         }
-    
-
 }
